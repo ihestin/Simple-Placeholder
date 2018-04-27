@@ -6,7 +6,7 @@ SRC   = catfic.c
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
+$(NAME): $(SRC)
 	$(CC) -o $(NAME) $(SRC) $(CFLAGS)
 
 clean:
